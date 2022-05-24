@@ -28,7 +28,7 @@ const zehnUhr = document.querySelectorAll(".zehnuhr")
 const elfUhr = document.querySelectorAll(".elfuhr")
 const zwölfUhr = document.querySelectorAll(".zwölfuhr")
 const Uhr = document.querySelectorAll(".Uhr")
-if (min >=25 && min < 60){
+if (min >25 && min < 60){
     hours++
 } 
 
@@ -146,9 +146,7 @@ else if (hours === 12 || hours === 0 ) {
             elfUhr[k].style.color ="black"}
 } 
 if ( min < 05) {
-    for (let i=0; i<Uhr.length ; i++){
-
-        Uhr[i].style.color ="red"}
+    
     
     for (let k=0; k<fünfMin.length ; k++){
             
